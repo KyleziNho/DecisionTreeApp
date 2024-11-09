@@ -9,7 +9,7 @@ const topics = {
                     "A neutral attitude to risks, as represented by the EMV criterion",
                     "A willingness to take risks"
                 ],
-                answer: 0,
+                answer: 1,
                 explanation: "This is narrow bracketing of decisions"
             },
             {
