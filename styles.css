@@ -1,22 +1,32 @@
+/* Dark Mode Styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #f5f5f5;
+  background-color: #1e1e1e;
+  color: #f2f2f2;
+}
+
+.title {
+  color: #00b8d4; /* Changed from purple to a teal-like color */
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: 2.5rem;
 }
 
 .topic {
   margin-bottom: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #333;
   border-radius: 8px;
-  background-color: white;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #2b2b2b;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .topic-header {
-  background: #2196f3;
-  color: white;
+  background: #00b8d4; /* Changed from purple to teal-like color */
+  color: #f2f2f2;
   padding: 15px;
   cursor: pointer;
   display: flex;
@@ -32,114 +42,36 @@ body {
 .question {
   margin-bottom: 30px;
   padding: 15px;
-  border: 1px solid #e0e0e0;
+  border: 1px solid #444;
   border-radius: 4px;
 }
 
-.options div {
-  padding: 12px 15px;
-  margin: 8px 0;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.options div:hover {
-  background-color: #f5f5f5;
-  transform: translateX(5px);
-}
-
-.options div.selected {
-  background-color: #e3f2fd;
-  border-color: #2196f3;
-}
-
-.options div.correct {
-  background-color: #c8e6c9;
-  border-color: #4caf50;
-}
-
-.options div.incorrect {
-  background-color: #ffcdd2;
-  border-color: #f44336;
-}
-
-.explanation {
-  display: none;
-  margin-top: 15px;
-  padding: 15px;
-  background-color: #e3f2fd;
-  border-radius: 4px;
-  border-left: 4px solid #2196f3;
-}
-
-button {
-  background-color: #2196f3;
-  color: white;
-  padding: 12px 24px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-top: 15px;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #1976d2;
-}
-
-button:disabled {
-  background-color: #bdbdbd;
-  cursor: not-allowed;
-}
-
-.score-display {
-  margin-top: 20px;
-  padding: 20px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-h1 {
-  color: #1976d2;
-  text-align: center;
-  margin-bottom: 30px;
-}
-.question-image {
-  max-width: 100%;
-  margin: 15px 0;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-/* Add these styles to your existing CSS */
 .option {
   padding: 12px 15px;
   margin: 8px 0;
-  border: 1px solid #ddd;
+  border: 1px solid #444;
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.2s ease;
+  background-color: #2b2b2b;
+  color: #f2f2f2;
 }
 
 .option:hover:not(.disabled) {
-  background-color: #f5f5f5;
+  background-color: #3b3b3b;
   transform: translateX(5px);
 }
 
 .option.correct {
-  background-color: #c8e6c9;
+  background-color: #4caf50;
   border-color: #4caf50;
-  color: #2e7d32;
+  color: #f2f2f2;
 }
 
 .option.incorrect {
-  background-color: #ffcdd2;
+  background-color: #f44336;
   border-color: #f44336;
-  color: #c62828;
+  color: #f2f2f2;
 }
 
 .option.disabled {
@@ -152,7 +84,7 @@ h1 {
   font-weight: bold;
   margin-bottom: 20px;
   padding: 10px;
-  background-color: #e3f2fd;
+  background-color: #2b2b2b;
   border-radius: 4px;
   text-align: right;
 }
@@ -161,13 +93,43 @@ h1 {
   display: none;
   margin-top: 15px;
   padding: 15px;
-  background-color: #e3f2fd;
+  background-color: #2b2b2b;
   border-radius: 4px;
-  border-left: 4px solid #2196f3;
+  border-left: 4px solid #00b8d4; /* Changed from purple to teal-like color */
   animation: fadeIn 0.5s ease;
+  color: #f2f2f2;
 }
 
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-10px); }
   to { opacity: 1; transform: translateY(0); }
+}
+
+button {
+  background-color: #00b8d4; /* Changed from purple to teal-like color */
+  color: #f2f2f2;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00acc1; /* Slightly darker teal-like color */
+}
+
+button:disabled {
+  background-color: #444;
+  cursor: not-allowed;
+}
+
+.question-image {
+  max-width: 100%;
+  margin: 15px 0;
+  border: 1px solid #444;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
