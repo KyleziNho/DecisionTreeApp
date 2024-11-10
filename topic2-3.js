@@ -58,7 +58,7 @@ const topics23 = {
                 explanation: "p(50) + 1-p (-25) = 15. Solving, we get P = 0.53"
             },
             {
-                question: "Consider the decision tree below, with payoffs assigned to the terminal nodes.",
+                question: "Consider the decision tree below, with payoffs assigned to the terminal nodes. What is the complete set of values that the probability “p” can take if Alternative 1 is to be the optimal decision at the first node, assuming the decision maker would like to maximise the expected payoff from the decision?",
                 image: "images/decision-tree2.png", // Replace with actual path to the image if available
                 options: [
                     "p ≥ 0.35",
@@ -187,8 +187,8 @@ const topics23 = {
                     "£2000",
                     "£1200"
                 ],
-                answer: 1,
-                explanation: "With perfect information, the expected value would be 0.2 * £8000 + 0.8 * £10000 = £9600."
+                answer: 3,
+                explanation: "With perfect information, the expected value would be 0.2 * £8000 + 0.8 * £10000 = £9600. £9600-£8400=£1200"
             },
             {
                 question: "What is the probability of rain at which the manager will be indifferent between holding the event at the lake vs the hotel?",
@@ -209,12 +209,12 @@ const topics23 = {
                     "0.33",
                     "0.20"
                 ],
-                answer: 0,
-                explanation: "Bayes' theorem yields P(rain | forecast) = 0.64."
+                answer: 2,
+                explanation: "Bayes' theorem yields P(rain | forecast) = 0.33."
             },
             {
                 question: "What is the expected payoff at node A?",
-                image: "images/decision-tree6.png",
+                image: "images/decision-treeA.png",
                 options: [
                     "600",
                     "550",
