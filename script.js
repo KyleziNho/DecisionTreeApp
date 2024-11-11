@@ -2,6 +2,7 @@
 const allTopics = [
     topics,       // from questions.js (Topic 1)
     topics23,     // from topic2-3.js (Topics 2 & 3)
+    topics4, // from topic4.js 
     topic5Questions // from topic5.js (Topic 5)
 ];
 
