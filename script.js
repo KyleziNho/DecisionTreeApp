@@ -3,7 +3,10 @@ const allTopics = [
     topics,       // from questions.js (Topic 1)
     topics23,     // from topic2-3.js (Topics 2 & 3)
     topics4, // from topic4.js 
-    topic5Questions // from topic5.js (Topic 5)
+    topic5Questions, // from topic5.js (Topic 5)
+    topics7, // from topic7.js (Topic 7)
+    topics8, // from topic8.js (Topic 8)
+    topics9, // from topic9.js (Topic 9)
 ];
 
 function createQuiz() {
