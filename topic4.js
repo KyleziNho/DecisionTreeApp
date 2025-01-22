@@ -1,5 +1,5 @@
 const topics4 = {
-    "Topic 4: Utiliy": {
+    "Topic 4: Utility": {
         questions: [
             {
                 question: "A gamble will earn £100 with probability p and £10 with probability (1-p). What is the value of p at which a risk-neutral individual would be indifferent between the gamble and a guaranteed payment of £50?",

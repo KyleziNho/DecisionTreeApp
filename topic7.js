@@ -61,7 +61,7 @@ const topics7 = {
                     explanation: "A Prisoners’ Dilemma has a pure equilibrium in strictly dominating strategies, so this statement is incorrect."
                 },
                 {
-                    question: "Applying the concept of Nash equilibrium, what will Andy and Brian do?",
+                    question: "7.6	Two individuals, Andy and Brian, living separately, each will decide whether to walk or take the bus to work today. If they both walk or both take the bus, they know they will see each other. Andy wants to spend time with Brian so will get a utility of 5 if they see each other, and 0 units of utility if they don’t. On the other hand, Brian doesn’t like Andy so will get a utility of 5 if they don’t meet. If they do meet, Brian will prefer that it is on the bus (payoff negative 1) rather than the walk (payoff  negative 2), which will take longer. Applying the concept of Nash equilibrium, what will Andy and Brian do?",
                     options: [
                         "Andy will walk, Brian will take the bus.",
                         "Andy will walk with probability 6/13, Brian will walk with probability 1/2.",
@@ -83,17 +83,6 @@ const topics7 = {
                     explanation: "If everyone else is taking action, one individual can drop out and still achieve the desired outcome, so universal action is not an equilibrium."
                 },
                 {
-                    question: "A person is being assaulted by a criminal in a public location with 20 individuals (in addition to the victim and the burglar). If at least two individuals take action, the criminal will leave. The individuals value the person’s welfare – if the criminal leaves then each person will receive 5 units of utility. However, taking action costs 3 units of utility to each individual. Which of the following is NOT an equilibrium of this scenario?",
-                    options: [
-                        "Exactly two individuals take action and the others don’t.",
-                        "Everyone takes action.",
-                        "Nobody takes action.",
-                        "Each individual randomises their actions and acts with probability p."
-                    ],
-                    answer: 1,
-                    explanation: "If everyone takes action, any individual can drop out and still receive the benefit, making universal action not an equilibrium."
-                },
-                {
                     question: "A billionaire poses the following game to 100 individuals: “Each person will secretly write a number on a card. The winner will be the person to write the largest number on their card. Their prize will be £1 million, divided by the total of the numbers written by all individuals. If there is a tie, then those people will share the prize”. Which of the following is true?",
                     options: [
                         "In equilibrium, all individuals will write a '1' on their card.",
@@ -112,7 +101,7 @@ const topics7 = {
                         "Linear utility functions",
                         "All of the above are necessary."
                     ],
-                    answer: 3,
+                    answer: 2,
                     explanation: "Linear utility functions are not a necessary assumption for establishing the equilibrium outcomes in the Battle of the Sexes game."
                 },
                 {
@@ -124,8 +113,8 @@ const topics7 = {
                         "(R2,C2)",
                         "All of the above are equilibria."
                     ],
-                    answer: 2,
-                    explanation: "(R2, C2) is not an equilibrium as it does not satisfy the Nash equilibrium conditions for the game."
+                    answer: 1,
+                    explanation: "(R2, C1) is not an equilibrium as the column player can increase their score from 5 -> 6."
                 },
                 {
                     question: "What assumptions did you need to make to answer the question about equilibria?",
@@ -136,8 +125,8 @@ const topics7 = {
                         "Only common priors",
                         "Neither of the above assumptions were needed."
                     ],
-                    answer: 1,
-                    explanation: "Common knowledge of rationality is necessary to deduce the Nash equilibrium."
+                    answer: 3,
+                    explanation: "Note that assumptions are the beliefs that the individuals hold about the other individual (not our beliefs about the individuals). The player does not need to know anything about the row player to know that they should play C2, and R2 is weakly dominant for R1."
                 },
                 {
                     question: "What is true about R1?",
@@ -160,8 +149,8 @@ const topics7 = {
                         "Centipede.",
                         "Battle of the Sexes."
                     ],
-                    answer: 1,
-                    explanation: "The payoff structure and strategic nature of the game resemble the Stag-Hunt."
+                    answer: 3,
+                    explanation: "Both players prefer to coordinate, but each has a different preference over which coordinated outcome to achieve."
                 },
                 {
                     question: "What is the probability of C1 being played in an equilibrium of mixed strategies?",
@@ -231,8 +220,8 @@ const topics7 = {
                         "The centipede",
                         "Prisoner’s dilemma"
                     ],
-                    answer: 1,
-                    explanation: "The game structure resembles Matching Pennies due to the opposing preferences of the players."
+                    answer: 3,
+                    explanation: "There is a dominant strategy, but it is suboptimal."
                 },
                 {
                     question: "What assumptions are needed to establish that (R1, C1) is a pure strategy equilibrium?",
@@ -254,8 +243,8 @@ const topics7 = {
                         "The generals both earn 2 units of utility.",
                         "There are no pure strategy Nash outcomes."
                     ],
-                    answer: 0,
-                    explanation: "The pure Nash equilibria occur when both generals send their armies to the same location, as they cannot unilaterally deviate to improve their payoffs."
+                    answer: 1,
+                    explanation: "The pure Nash equilibria occur when both generals send their armies to different locations, as they cannot unilaterally deviate to improve their payoffs."
                 },
                 {
                     question: "What type of common game structure does the scenario represent?",
@@ -358,7 +347,7 @@ const topics7 = {
                     explanation: "The pure strategy equilibria are not unstable because weak dominance is required for instability."
                 },
                 {
-                    question: "Which of the following is NOT an equilibrium to the game involving high- and low-ability applicants and MBAs?",
+                    question: "Suppose that of applicants for managerial positions, half are high ability while the rest are of low ability. High ability employees generate 5 units of value for the firm while low ability employees generate 3 units of value. Applicants have the option to do an MBA – this costs 1.25 units of value to a high quality applicant and 2.5 units of value to a low quality applicant. Which of the following is NOT an equilibrium to this game?",
                     options: [
                         "All firms pay salaries of 4 units and nobody gets an MBA.",
                         "Applicants with MBAs are paid 5 units of salary, without MBAs are paid 3 units of salary, and high-ability employees get MBAs (low-ability employees don’t).",
@@ -369,15 +358,15 @@ const topics7 = {
                     explanation: "If everyone gets an MBA and the salary is the same, high-ability employees will prefer not to get the MBA, breaking equilibrium."
                 },
                 {
-                    question: "Which of the following is NOT a Nash equilibrium in the market with 30 banks?",
+                    question: "Consider a market with 30 banks. Each bank decides to choose between three options: safe (s), medium (m), risky (r), adding zero, one, or two “units” of risk to the market, respectively. The market will crash if the total amount of risk is greater than 20 units. If the market does not crash, the safe option is the least profitable and the risky option is the most profitable. If the market crashes, losses are great for everyone. If we call s, m, and r, the number of firms choosing each option, which of the following is NOT a Nash equilibrium in the market with 30 banks?",
                     options: [
                         "s = 15; m = 10; r = 5",
                         "s = 10; m = 20; r = 0",
                         "s = 0; m = 20; r = 10",
                         "s = 22; m = 6; r = 2"
                     ],
-                    answer: 2,
-                    explanation: "If total risk is less than 20, any s or m could move up, which means some scenarios are not Nash equilibria."
+                    answer: 3,
+                    explanation: "If total risk is less than 20, any s or m could move up."
                 },
                 {
                     question: "Suppose we could have greater detail of how much is earned by each type of bank (including all costs and revenues) for different market conditions. Which of the following is true?",
@@ -428,7 +417,7 @@ const topics7 = {
                     explanation: "The row player has a dominant strategy and does not need to know what information the column player has."
                 },
                 {
-                    question: "What additional condition must be satisfied for the easy test to dominate the difficult test for both lecturers?",
+                    question: "Two lecturers teaching different units to the same students must decide independently whether their in-class tests will be easy or difficult. The cost of creating an easy test is “e” and a difficult test is “d” (e < d). The students have a total level of love, “L”, to give (L/2 > d). If the lecturers decide to do the same thing, then they share the love equally. If they do things differently, then the one with the easy test gets all the love. Finally, if both lecturers give a difficult test, then they will receive additional satisfaction, “S”, from doing their jobs right (S > d). What additional condition must be satisfied for the easy test to dominate the difficult test for both lecturers?",
                     options: [
                         "S < L",
                         "S < L – e – d",
@@ -446,8 +435,8 @@ const topics7 = {
                         "S > L/2 + d – e",
                         "d can’t dominate e"
                     ],
-                    answer: 2,
-                    explanation: "The condition for the difficult test to dominate is S > L/2 + d – e."
+                    answer: 3,
+                    explanation: "Since L/2 – e > -d always."
                 },
                 {
                     question: "If the additional condition for the difficult test dominating is satisfied, what form of game does this problem resemble?",
@@ -461,7 +450,7 @@ const topics7 = {
                     explanation: "The game resembles a Prisoners’ Dilemma because there is a dominating strategy, but (d, d) provides a better payoff for both."
                 },
                 {
-                    question: "Which of the following game forms does the mask-wearing situation resemble?",
+                    question: "It is known that 1% of the population have a certain virus at any given point in time. A face mask prevents transmission to others completely. Each of 180 students in a face-to-face lecture independently decides whether to wear a face mask to the lecture or not. Wearing a face mask costs 1 unit of utility. In addition, each student also receives a cost equal to the expected number of non-mask wearing students with covid in the lecture (so if nobody wears a mask, this cost is 180(0.01) = 1.8). Which of the following game forms does the mask-wearing situation resemble?",
                     options: [
                         "Stag Hunt",
                         "Battle of the Sexes",
@@ -472,7 +461,7 @@ const topics7 = {
                     explanation: "The situation resembles a Prisoners’ Dilemma as individual incentives lead to a suboptimal collective outcome."
                 },
                 {
-                    question: "With a disease affecting 10% of the population, how many students will wear masks in equilibrium?",
+                    question: "Consider the same problem in the previous question. With the disease affecting 10% of the population, how many students will wear masks in equilibrium?",
                     options: [
                         "100",
                         "80",
@@ -491,10 +480,10 @@ const topics7 = {
                         "180"
                     ],
                     answer: 1,
-                    explanation: "150 students will attend the lecture as the equilibrium is determined by balancing the cost of attending with the cost of staying home."
+                    explanation: "150 students will attend the lecture as the equilibrium is determined by balancing the cost of attending with the cost of staying home. n is number of people showing up to lecture. Going to the lecture costs n(0.01), not going to the lecture costs 1.5. n=1.5/0.01=150."
                 },
                 {
-                    question: "What is/are the pure equilibrium outcome/s of this game?",
+                    question: "A lecturer is preparing exam questions. She could either write a difficult exam costing time d or an easy exam costing time e (e < d). Students also have a decision, whether to work hard at cost h or to chill at cost c (c < h). If the level of difficulty matches the student preparation (difficult/hard or easy/chill), then both lecturer and students get satisfaction at a value of S. If the level of difficulty does not match, both parties get grief at a value of G ((S – d) > (G – e) > 0). What is/are the pure equilibrium outcome/s of this game?",
                     options: [
                         "(Difficult, Hard)",
                         "(Difficult, Chill) and (Easy, Hard)",
@@ -521,11 +510,11 @@ const topics7 = {
                     options: [
                         "0.6",
                         "0.8",
-                        "0.2",
+                        "0",
                         "0.4"
                     ],
                     answer: 0,
-                    explanation: "By removing dominated strategies and solving for mixed equilibrium, the probability of Player 2 playing C3 is 0.6."
+                    explanation: "The answer is 0 as C1 dominates C2 and C3."
                 },
                 {
                     question: "Under which of the following conditions is 'common priors' NEVER a required assumption, if we are to find the Nash equilibrium/equilibria?",
@@ -551,7 +540,7 @@ const topics7 = {
                     explanation: "The probability is calculated as (3/4)(2/3) = 1/2."
                 },
                 {
-                    question: "How many individuals will ride the train in equilibrium?",
+                    question: "A group of 100 individuals living in a certain area all commute into town on either the bus or the train. The bus station and train station are far away from each other, so each individual chooses independently between the bus and the train when they leave home. Individuals prefer it to be not crowded. The train is quicker, providing higher utility. To be specific, the train provides 200 – t units of utility, and the bus provides 150 – b units of utility, where t and b are the number of individuals riding the train and the bus, respectively. How many individuals will ride the train in equilibrium?",
                     options: [
                         "100",
                         "75",
@@ -598,7 +587,8 @@ const topics7 = {
                     explanation: "After eliminating dominated strategies, the probability is calculated as p = 0.5."
                 },
                 {
-                    question: "If we are only interested in pure strategy equilibria, how many players will take a shot in equilibrium?",
+                    question: "Imagine three players, A, B, and C, situated at the corners of an equilateral triangle. They engage in a three-person duel, in which each player has a gun with one bullet. Each player is a perfect shot and can kill one other player at any time. All players decide whether to take a shot simultaneously. There is a single round. The players order their goals as follows (with (1) being the most preferred): If we are only interested in pure strategy equilibria, how many players will take a shot in equilibrium?",
+                    image: "images/idk.png",
                     options: [
                         "0",
                         "1",
@@ -609,7 +599,7 @@ const topics7 = {
                     explanation: "If fewer than 3 players are shooting, it is always better to unilaterally decide to take a shot. If all players are shooting, it is not optimal to choose not to shoot."
                 },
                 {
-                    question: "Which of the following is NOT a Nash equilibrium in the scenario where lecturers adopt new technology?",
+                    question: "The leadership of a School of Management would like its 150 lecturers to adopt a new technology in the classroom. Considering the positive impact created on the students, the technology will pay off if a minimum of 50 lecturers adopts the technology, in which case all 150 lecturers will receive a utility of U/person (they will receive zero utility otherwise). The time cost to a lecturer of adopting the technology is c (c < U). Which of the following is NOT a Nash equilibrium in the scenario where lecturers adopt new technology?",
                     options: [
                         "50 lecturers adopt and 100 do not.",
                         "Nobody adopts.",
@@ -631,7 +621,7 @@ const topics7 = {
                     explanation: "The number of adopters is determined by balancing the utility: T/n – c = 0, which leads to n = T/c."
                 },
                 {
-                    question: "What is true about the game involving two politicians using 'dirty' tactics?",
+                    question: "Consider an election with two competing politicians (P1 and P2), who are trying to decide whether to use “dirty” tactics against each other the week before the election. P1 currently has a predicted 55% of the vote and P2 has the rest. 51% is needed to win the election. If only one politician employs such tactics, they will get 10% of the vote from the other. If both or neither employ the tactics, nothing happens. The winner of the election gets 100 points of utility and the other gets 30 points. The cost of using dirty tactics is 20 points of utility. What is true about this game?",
                     options: [
                         "With probability 0.12, both politicians will use dirty tactics.",
                         "It is in the form of a Prisoners’ Dilemma.",
