@@ -623,12 +623,12 @@ const topics7 = {
                 {
                     question: "Consider an election with two competing politicians (P1 and P2), who are trying to decide whether to use “dirty” tactics against each other the week before the election. P1 currently has a predicted 55% of the vote and P2 has the rest. 51% is needed to win the election. If only one politician employs such tactics, they will get 10% of the vote from the other. If both or neither employ the tactics, nothing happens. The winner of the election gets 100 points of utility and the other gets 30 points. The cost of using dirty tactics is 20 points of utility. What is true about this game?",
                     options: [
-                        "With probability 0.12, both politicians will use dirty tactics.",
+                        "With probability 0.20, both politicians will use dirty tactics.",
                         "It is in the form of a Prisoners’ Dilemma.",
                         "It has two pure strategy equilibria.",
                         "Only common knowledge of rationality is needed to find the equilibrium."
                     ],
                     answer: 0,
-                    explanation: "The mixed strategy probabilities lead to (5/12)(2/7) = 0.12, indicating the likelihood of both politicians employing dirty tactics."
+                    explanation: "The mixed strategy probabilities lead to (5/7)(2/7) = 0.20, indicating the likelihood of both politicians employing dirty tactics."
                 }
 ] }}
