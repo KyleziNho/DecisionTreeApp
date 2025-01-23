@@ -48,7 +48,7 @@ const topics9 = {
                 explanation: "The efficient frontier represents the best combinations of cost and benefit, which in this case are D, B, and A."
             },
             {
-                question: "What is the value of each benefit point to the decision maker?",
+                question: "The decision maker has also noted that a swing from the worst alternative to the best alternative in Design, keeping all other attributes constant, would be worth £1000. What is the value of each benefit point to the decision maker?",
                 image: "images/g3.png",
                 options: [
                     "£1000",
@@ -68,8 +68,8 @@ const topics9 = {
                     "C",
                     "D"
                 ],
-                answer: 0,
-                explanation: "Option A is the provisional choice because the cost per benefit point for all switches exceeds the calculated value of £62.50 per point."
+                answer: 2,
+                explanation: "Lowest cost per benefit point"
             },
             {
                 question: "Consider a part of the value tree used for a laptop selection decision using SMART below: Which of the following criteria does this part of the tree violate?",
@@ -126,8 +126,8 @@ const topics9 = {
                     "A, D",
                     "B, D"
                 ],
-                answer: 2,
-                explanation: "Options C and D are the only ones on the efficient frontier, as they are not dominated by other alternatives."
+                answer: 1,
+                explanation: "Options A, C and D are the only ones on the efficient frontier, as they are not dominated by other alternatives."
             },
             {
                 question: "The decision maker is quite unsure about the scores they assigned to option B during the rating process. Which of the following sets of scores for the three attributes would move B to the efficient frontier?",
@@ -313,8 +313,8 @@ const topics9 = {
                     "The lowest-level attributes should be easily measured.",
                     "If all alternatives perform the same on an attribute, that attribute can be deleted."
                 ],
-                answer: 0,
-                explanation: "A SMART value tree does not need to be as small as possible but should be comprehensive enough to capture all relevant attributes."
+                answer: 1,
+                explanation: "Although it may raise some challenges, SMART will still work if variabes are correlated with each other."
             },
             {
                 question: "Which of the following is NOT true about swing weights?",
@@ -324,8 +324,8 @@ const topics9 = {
                     "More important attributes will have higher swing weights.",
                     "The largest possible swing weight is 100."
                 ],
-                answer: 3,
-                explanation: "Swing weights are not limited to a maximum of 100; they can take any value depending on the decision maker’s preferences."
+                answer: 2,
+                explanation: "An attribute's swing weight is influenced by both its importance and the difference between its best and worst levels. An attribute with a smaller range may have a lower swing weight even if it is deemed 'most important'."
             },
             {
                 question: "What are the benefit points for Option B?",
@@ -511,7 +511,7 @@ const topics9 = {
                     "None of the above."
                 ],
                 answer: 3,
-                explanation: "None of the statements are accurate based on the swing weights provided."
+                explanation: "Voice is not necessarily the most important, but the difference between a good and bad voice is high"
             },
             {
                 question: "What is the missing value in cell C13?",
@@ -570,8 +570,8 @@ const topics9 = {
                     "B, C, A",
                     "A, B"
                 ],
-                answer: 0,
-                explanation: "Sponsors A, D, and E are on the efficient frontier, as they are not dominated by any other combination of donation and value."
+                answer: 2,
+                explanation: "Bit of a confusing question - this time you want to maximise both value and donations. D and E have lower value and lower donations than alternatives."
             },
             {
                 question: "What is the minimum score Sponsor A must have for Reputation to stay on the efficient frontier?",
@@ -618,8 +618,8 @@ const topics9 = {
                     "Efficiency",
                     "Relevance"
                 ],
-                answer: 0,
-                explanation: "Reputation was scored incorrectly because no option was assigned a score of zero, violating SMART principles."
+                answer: 3,
+                explanation: "Relevance was scored incorrectly because no option was assigned a score of zero, violating SMART principles."
             },
             {
                 question: "Which of the following is NOT true about SMART?",

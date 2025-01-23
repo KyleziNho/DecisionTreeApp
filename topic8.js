@@ -10,7 +10,7 @@ const topics8 = {
                     "The decision will not be based on monetary considerations."
                 ],
                 answer: 2,
-                explanation: "Non-compensatory strategies involve decisions without making trade-offs between attributes."
+                explanation: "Non-compensatory strategies involve decisions that have trade-offs between attributes."
             },
             {
                 question: "Which of the following statements is not true? Semi-lexicographic ranking:",
@@ -21,7 +21,7 @@ const topics8 = {
                     "Involves the consideration of only one attribute at a time."
                 ],
                 answer: 2,
-                explanation: "Semi-lexicographic ranking is non-compensatory and does not involve trade-offs between attributes."
+                explanation: "Semi-lexicographic ranking is non-compensatory and involves trade-offs between attributes."
             },
             {
                 question: "A decoy option:",
@@ -287,8 +287,8 @@ const topics8 = {
                     "Lexicographic ordering",
                     "Satisficing"
                 ],
-                answer: 2,
-                explanation: "Lexicographic ordering guarantees a single outcome by prioritising attributes in a strict order."
+                answer: 3,
+                explanation: "Will pick the first option that meets determined criteria."
             },
             {
                 question: "“We do know what a better system to run our national train service would look like, but it would require such structural changes that we prefer to just look for problems to fix in the current system instead.” The speaker is describing what decision-making approach?",
@@ -355,8 +355,8 @@ const topics8 = {
                     "0.7",
                     "0.8"
                 ],
-                answer: 2,
-                explanation: "Prospect Theory evaluates perceived utilities based on probability weighting, leading to a perceived expected utility of 0.7."
+                answer: 0,
+                explanation: "Prospect Theory evaluates perceived utilities based on probability weighting, leading to a perceived expected utility of 0.5."
             },
             {
                 question: "The decision maker is offered another investment (Investment 2), which will pay £2000 with probability 0.5 and lose £2000 with probability 0.5. What would Prospect Theory predict about the decision maker’s choice?",
@@ -367,8 +367,8 @@ const topics8 = {
                     "The decision maker will choose to do nothing",
                     "Can’t be determined from the information given."
                 ],
-                answer: 3,
-                explanation: "The decision maker’s choice cannot be determined without further information about their risk preferences and probability weighting."
+                answer: 2,
+                explanation: "The utility is 0"
             },
             {
                 question: "Which of the following is a compensatory approach to decision making?",
@@ -411,8 +411,8 @@ const topics8 = {
                     "Final choice depends on the order in which the alternatives are presented.",
                     "Assume the decision maker is risk-averse"
                 ],
-                answer: 0,
-                explanation: "Both Elimination by Aspects and Satisficing involve considering options sequentially until a satisfactory or acceptable choice is made."
+                answer: 1,
+                explanation: "Options are eliminated one by one"
             },
             {
                 question: "“As automated train safety systems have become more advanced, train drivers (over-trusting these systems) have become less careful. This is why accident statistics have not improved.” What phenomenon does this quote demonstrate?",
@@ -434,8 +434,8 @@ const topics8 = {
                     "They might be inclined to avoid an activity which will reduce their probability of success from 1.00 to 0.99.",
                     "They have an accurate perception of probability at a stated probability of 0.3."
                 ],
-                answer: 3,
-                explanation: "The decision maker does not have an accurate perception of probability at 0.3, as they tend to over- or under-weigh probabilities."
+                answer: 0,
+                explanation: "The graph (right) does not follow a similar trend to the a decision maker influenced by prospect theory (left)."
             },
             {
                 question: "The decision maker is given a gamble in which they will earn £1000 with probability 0.8 or lose £600 with probability 0.25. What is their perceived expected utility from the gamble?",
@@ -491,8 +491,8 @@ const topics8 = {
                     "Take the last",
                     "A compensatory decision making heuristic"
                 ],
-                answer: 1,
-                explanation: "The minimalist heuristic involves selecting an attribute randomly rather than focusing on a specific attribute like fuel mileage."
+                answer: 3,
+                explanation: "A compensatory decision would mean weighting each attribute such as fuel, price, the look of the car and selecting a car based on that."
             },
             {
                 question: "Which of the following is NOT true about satisficing?",
@@ -503,7 +503,7 @@ const topics8 = {
                     "As long as both fit the aspiration levels, a house 2 miles from work and a house 4 miles from work would be considered the same."
                 ],
                 answer: 2,
-                explanation: "Satisficing does not depend on the order of alternatives but rather on meeting aspiration levels."
+                explanation: "It is a possibility that another choice could be made, but sometimes it could be the same choice."
             },
             {
                 question: "In choosing a car, a decision maker has reduced their options to 3. Fuel mileage is most important (more is better), but the individual considers options to be tied if the difference is less than 12 mpg. Which option should the decision maker choose?",
@@ -515,7 +515,7 @@ const topics8 = {
                     "The heuristic does not provide a clear outcome."
                 ],
                 answer: 3,
-                explanation: "The heuristic does not provide a clear outcome as the difference in fuel mileage between options is less than the threshold."
+                explanation: "The heuristic does not provide a clear outcome as B and C could both be chosen. It depends on how valuable the mpg is."
             },
             {
                 question: "A decision maker has the distorted probability profile presented below. At what value of 'p' would a risk-neutral individual be indifferent between earning £500 for sure or £1000 with probability 'p'?",
